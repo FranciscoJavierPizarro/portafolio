@@ -3,7 +3,7 @@ import Layout from "../components/Layout"
 import Tecnologias from "../components/Tecnologias"
 export default function Conocimientos() {
   return (
-    <div className="items-center mt:8">
+    <div className="mt:8">
       <Cabecera/>
       <Tecnologias/>
     </div>

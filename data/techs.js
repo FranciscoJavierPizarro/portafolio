@@ -5,7 +5,7 @@ export const techs = [
       link: "https://www.python.org/",
     },
     {
-      name: "cpp",
+      name: "c++",
       img: "cpp.png",
       link: "https://es.wikipedia.org/wiki/C%2B%2B",
     },
@@ -13,31 +13,6 @@ export const techs = [
       name: "c",
       img: "c.png",
       link: "https://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)",
-    },
-    {
-      name: "github",
-      img: "github.png",
-      link: "https://github.com/",
-    },
-    {
-      name: "flutter",
-      img: "flutter.png",
-      link: "https://flutter.dev/",
-    },
-    {
-      name: "arduino",
-      img: "arduino.png",
-      link: "https://www.arduino.cc/",
-    },
-    {
-      name: "react",
-      img: "react.png",
-      link: "https://es.reactjs.org/",
-    },
-    {
-      name: "r",
-      img: "r.png",
-      link: "https://www.r-project.org/",
     },
     {
       name: "java",
@@ -48,6 +23,36 @@ export const techs = [
       name: "haskell",
       img: "haskell.png",
       link: "https://www.haskell.org/",
+    },
+    {
+      name: "github",
+      img: "github.png",
+      link: "https://github.com/",
+    },
+    {
+      name: "react",
+      img: "react.png",
+      link: "https://es.reactjs.org/",
+    },
+    {
+      name: "bash",
+      img: "bash.png",
+      link: "https://www.gnu.org/software/bash/",
+    },
+    {
+      name: "flutter",
+      img: "flutter.png",
+      link: "https://flutter.dev/",
+    },
+    {
+      name: "arduino",
+      img: "arduino.png",
+      link: "https://www.arduino.cc/",
+    },  
+    {
+      name: "r",
+      img: "r.png",
+      link: "https://www.r-project.org/",
     },
     {
       name: "SQL",
@@ -68,11 +73,6 @@ export const techs = [
       name: "figma",
       img: "figma.png",
       link: "https://www.figma.com/",
-    },
-    {
-      name: "bash",
-      img: "bash.png",
-      link: "https://www.gnu.org/software/bash/",
     },
     {
       name: "makefile",

@@ -4,7 +4,7 @@ import AboutMe from "../components/AboutMe"
 import Contactar from "../components/Contactar"
 export default function Home() {
   return (
-    <div className="items-center mt:8">
+    <div className="mt:8">
       <Cabecera/>
       <AboutMe/>
       <Contactar/>

@@ -15,7 +15,7 @@ export const projects = [
         name: "Google Hashcode 2022",
         img: "ghashcode.png",
         link: "https://codingcompetitions.withgoogle.com/hashcode",
-        descp: "Hackaton anual organizado por google, fue una experiencia muy divertida de trabajo en equipo.En el tuvimos que afrontar un problema de optimización.",
+        descp: "Hackathon anual organizado por google, fue una experiencia muy divertida de trabajo en equipo.En el tuvimos que afrontar un problema de optimización.",
     },
     {
         name: "Trabajo final PSCD",
