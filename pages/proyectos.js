@@ -1,10 +1,11 @@
 import Cabecera from "../components/Cabecera"
 import Layout from "../components/Layout"
+import Proy from "../components/Proy"
 export default function Proyectos() {
   return (
-    <div className="mx-auto w-1/2 content-center items-center mt:8">
+    <div className="mt:8">
       <Cabecera/>
-      <img src="wp.png"/>
+      <Proy/>
     </div>
   )
 }
