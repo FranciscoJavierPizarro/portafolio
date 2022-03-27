@@ -5,8 +5,8 @@ export const techs = [
       link: "https://www.python.org/",
     },
     {
-      name: "c++",
-      img: "c++.png",
+      name: "cpp",
+      img: "cpp.png",
       link: "https://es.wikipedia.org/wiki/C%2B%2B",
     },
     {

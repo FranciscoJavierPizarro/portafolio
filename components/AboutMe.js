@@ -1,14 +1,4 @@
-import { events } from "../data/events"
-import ShowCase from "./ShowCase"
 export default function AboutMe() {
-    const list = events.map((item, idx) => (
-        <ShowCase
-        key={idx}
-        name = {item.name}
-        img = {item.img}
-        link = {item.link}
-        />
-    ))
     return (
         <>
          <div className="h-full w-1/2 mx-auto justify-center content-center gap-x-8 text-justify">
@@ -33,12 +23,6 @@ export default function AboutMe() {
                 Pertenezco a la asociación CodeLabZGZ, además de la escuela de CTFs, en mi tiempo libre me gusta aprender cosas nuevas
                 y entrenar.
             </p>
-            <p>    
-                Eventos en los que he participado:
-            </p>
-            <div className="flex gap-x-4 overflow-x-auto overflow-y-hidden pt-4">
-                {list}
-            </div>
          </div>
         </>
     )

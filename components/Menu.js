@@ -9,7 +9,7 @@ export default function Menu() {
             <div className="flex gap-x-8 text-gray-700">
             <p className="hover:text-gray-900">
                 <Link href="proyectos">
-                    Proyectos
+                    Proyectos y eventos
                 </Link>
             </p>
             <p className="hover:text-gray-900">
