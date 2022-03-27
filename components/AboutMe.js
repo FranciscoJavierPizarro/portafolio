@@ -36,7 +36,7 @@ export default function AboutMe() {
             <p>    
                 Eventos en los que he participado:
             </p>
-            <div className="flex gap-x-4 overflow-x-auto pt-4">
+            <div className="flex gap-x-4 overflow-x-auto overflow-y-hidden pt-4">
                 {list}
             </div>
          </div>

@@ -1,11 +1,13 @@
 import Cabecera from "../components/Cabecera"
 import Layout from "../components/Layout"
 import AboutMe from "../components/AboutMe"
+import Contactar from "../components/Contactar"
 export default function Home() {
   return (
     <div className="items-center mt:8">
       <Cabecera/>
       <AboutMe/>
+      <Contactar/>
     </div>
   )
 }
