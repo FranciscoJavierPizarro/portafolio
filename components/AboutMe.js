@@ -1,7 +1,9 @@
+import SubjectGraph from "./SubjectGraph"
+import { subjects } from "../data/subjects"
 export default function AboutMe() {
     return (
         <>
-         <div className="h-full w-1/2 mx-auto justify-center content-center gap-x-8 text-justify">
+         <div className="w-1/2 mx-auto text-justify">
             <p>
                 Soy Francisco Javier Pizarro Martínez, estudiante de 2º de ingeniería informática en la universidad de Zaragoza.
             </p>
@@ -13,16 +15,40 @@ export default function AboutMe() {
             </p>
             <ul className="list-disc list-inside pl-4">
                 <li>
-                    La capacidad de resolver problemas de formas únicas y óptimas.
+                    Capacidad de resolver problemas de formas únicas y óptimas.
                 </li>
                 <li>
                     Capacidad de liderazgo y buenas habilidades comunicativas en lo referente a trabajar en equipos.
+                </li>
+                <li>
+                    Cualificado para poder desenvolverme correctamente en inglés.
+                </li>
+                <li>
+                    Capacidad de aprender de manera muy rápida
                 </li>
             </ul>
             <p>
                 Pertenezco a la asociación CodeLabZGZ, además de la escuela de CTFs, en mi tiempo libre me gusta aprender cosas nuevas
                 y entrenar.
             </p>
+            <p>
+                Mis tecnologías favoritas son:
+            </p>
+            <ul className="list-disc list-inside pl-4">
+                <li>
+                    Python
+                </li>
+                <li>
+                    NextJs
+                </li>
+                <li>
+                    C++
+                </li>
+            </ul>
+            <p>
+                Resultados académicos en la universidad:
+            </p>
+            <SubjectGraph data={subjects}/>
          </div>
         </>
     )

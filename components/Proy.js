@@ -14,7 +14,6 @@ export default function Proy() {
         <>
          <div className="flex flex-col h-full w-1/2 mx-auto justify-center content-center gap-y-8 text-justify">
             {list}
-            {/* <img src="wp.png"/> */}
          </div>
         </>
     )
