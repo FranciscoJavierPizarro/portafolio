@@ -1,6 +1,12 @@
 import Link from "next/link"
-import Curriculum from "./Curriculum";
 import toast, { Toaster } from 'react-hot-toast';
+import { FiFile } from "react-icons/fi";
+import { FiMail } from "react-icons/fi";
+import { FiLinkedin } from "react-icons/fi";
+import { FiSend } from "react-icons/fi";
+import { FiGithub } from "react-icons/fi";
+
+
 export default function Contactar() {
     function copiar() {
         navigator.clipboard.writeText("pizarrojavier000@gmail.com");
@@ -14,35 +20,50 @@ export default function Contactar() {
                 <p className="text-justify pt-4">
                     Para contactar conmigo o ver mi curriculum vitae:
                 </p>
-                <div className="mx-auto w-full pt-4 gap-x-4 place-items-center grid grid-cols-4 content-center">
-                    <div className="h-16 p-2 items-center justify-center rounded-xl">
+                <div className="mx-auto w-full pt-4 gap-x-4 place-items-center grid grid-cols-5 content-center">
+                    <div className="h-16 p-2 items-center justify-center rounded-xl hover:-translate-y-4">
                         <Link href="https://es.linkedin.com/in/franciscopizarrojavier">
                         <a>
-                            <div className="shadow-md h-12 w-12">
-                                <img className="h-full w-full object-contain" src="linkedin.png"/>,
+                            <div className="shadow-md h-8 w-8">
+                                <FiLinkedin className="w-full h-full"/>
                             </div>
                         </a>
                         </Link>
                     </div>
-                    <div className="h-16 p-2 items-center justify-center rounded-xl">
+                    <div className="h-16 p-2 items-center justify-center rounded-xl hover:-translate-y-4">
                         <Link href="https://t.me/pizarrojavier">
                         <a>
-                            <div className="shadow-md h-12 w-12">
-                                <img className="h-full w-full object-contain" src="telegram.png"/>,
+                            <div className="shadow-md h-8 w-8">
+                                <FiSend className="w-full h-full"/>
                             </div>
                         </a>
                         </Link>
                     </div>
-                    <div className="h-16 p-2 items-center justify-center rounded-xl">
+                    <div className="h-16 p-2 items-center justify-center rounded-xl hover:-translate-y-4">
                         <button onClick={copiar}>
                         <a>
-                            <div className="shadow-md h-12 w-12">
-                                <img className="h-full w-full object-contain" src="gmail.png"/>,
+                            <div className="shadow-md h-8 w-8">
+                                <FiMail className="w-full h-full"/>
                             </div>
                         </a>
                         </button>
                     </div>
-                    <Curriculum/>
+                    <div className="h-16 p-2 items-center justify-center rounded-xl hover:-translate-y-4">
+                        <Link href="https://github.com/FranciscoJavierPizarro">
+                        <a>
+                            <div className="shadow-md h-8 w-8">
+                                <FiGithub className="w-full h-full"/>
+                            </div>
+                        </a>
+                        </Link>
+                    </div>
+                    <div className="h-16 p-2 items-center justify-center rounded-xl  hover:-translate-y-4">
+                    <a href="cv.pdf">
+                        <div className="shadow-md h-8 w-8">
+                            <FiFile className="w-full h-full"/>
+                        </div>
+                    </a>
+                    </div>
                 </div>                
             </div>
         </>
