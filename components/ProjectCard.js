@@ -1,7 +1,21 @@
 import Link from "next/link"
+import { motion } from "framer-motion";
+const Tool = {
+    initial: { opacity: 0 },
+    animate: {
+      opacity: 1,
+      transition: {
+        duration: 0.3,
+        ease: "easeIn",
+      },
+    },
+  };
 export default function ShowCase({name, img, link, descp}) {
     return(
         <div className="w-full h-auto relative">
+            <motion.div
+            variants={Tool}
+            className="">
             <Link href={link}>
                 <div className="flex gap-x-4 place-content-justify w-full h-auto rounded-xl p-3 bg-gray-200 hover:bg-gray-300 hover:shadow cursor-pointer hover:scale-110">
                     <div className="w-32 h-32 pl-4">
@@ -17,6 +31,7 @@ export default function ShowCase({name, img, link, descp}) {
                     </div>
                 </div>
             </Link>
+            </motion.div>
         </div>
     )
 }
