@@ -15,5 +15,5 @@ export default function Home() {
 }
 
 Home.getLayout = function getLayout(page) {
-  return <html lang="español"><Layout>{page}</Layout></html>
+  return <html lang="es"><Layout>{page}</Layout></html>
 }

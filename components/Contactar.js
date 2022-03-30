@@ -22,38 +22,30 @@ export default function Contactar() {
                 <div className="mx-auto w-full pt-4 gap-x-4 place-items-center grid grid-cols-5 content-center">
                     <div className="h-16 p-2 items-center justify-center rounded-xl">
                         <Link href="https://es.linkedin.com/in/franciscopizarrojavier">
-                        <a>
                             <div className="shadow-md h-8 w-8">
                                 <FiLinkedin className="w-full h-full hover:text-azul"/>
                             </div>
-                        </a>
                         </Link>
                     </div>
                     <div className="h-16 p-2 items-center justify-center rounded-xl">
                         <Link href="https://t.me/pizarrojavier">
-                        <a>
                             <div className="shadow-md h-8 w-8">
                                 <FiSend className="w-full h-full hover:text-azul"/>
                             </div>
-                        </a>
                         </Link>
                     </div>
                     <div className="h-16 p-2 items-center justify-center rounded-xl">
                         <button onClick={copiar}>
-                        <a>
                             <div className="shadow-md h-8 w-8">
                                 <FiMail className="w-full h-full hover:text-azul"/>
                             </div>
-                        </a>
                         </button>
                     </div>
                     <div className="h-16 p-2 items-center justify-center rounded-xl">
                         <Link href="https://github.com/FranciscoJavierPizarro">
-                        <a>
                             <div className="shadow-md h-8 w-8">
                                 <FiGithub className="w-full h-full hover:text-azul"/>
                             </div>
-                        </a>
                         </Link>
                     </div>
                     <div className="h-16 p-2 items-center justify-center rounded-xl">
