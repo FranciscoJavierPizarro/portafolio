@@ -15,7 +15,7 @@ export default function Contactar() {
     return (
         <>
             <Toaster/>
-            <div className="mx-auto w-1/2">
+            <div className="mx-8 sm:mx-auto w-3/4 md:w-1/2">
                 <p className="text-justify pt-4">
                     Para contactar conmigo o ver mi curriculum vitae:
                 </p>

@@ -18,11 +18,11 @@ export default function ShowCase({name, img, link, descp}) {
             variants={Tool}
             className="">
             <Link href={link}>
-                <div className="flex gap-x-4 place-content-justify w-full h-auto rounded-xl p-3 bg-gray-200 hover:bg-gray-300 hover:shadow cursor-pointer hover:scale-110">
-                    <div className="w-32 h-32 pl-4">
+                <div className="flex flex-col sm:flex-row gap-x-4 content-center sm:place-content-justify w-full h-auto rounded-xl p-3 bg-gray-200 hover:bg-gray-300 hover:shadow cursor-pointer hover:scale-110">
+                    <div className="w-20 h-20 sm:w-32 sm:h-32 pl-4  pt-2 sm:pt-8 xl:pt-4 content-center">
                         <Image src={img} width={32} height={32} layout="responsive" className="object-contain" alt={name}/>
                     </div>
-                    <div className="flex flex-col pl-12 w-full py-4">
+                    <div className="flex flex-col pl-4 sm:pl-12 w-full pb-4 sm:py-4">
                         <p className="pt-1.5 font-semibold">
                             {name}
                         </p>

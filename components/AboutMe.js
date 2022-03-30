@@ -3,7 +3,7 @@ import { subjects } from "../data/subjects"
 export default function AboutMe() {
     return (
         <>
-         <div className="w-3/4 mx-8 sm:w-1/2 sm:mx-auto sm:text-justify">
+         <div className="w-3/4 mx-8 md:w-1/2 sm:mx-auto sm:text-justify">
             <p>
                 Soy Francisco Javier Pizarro Martínez, estudiante de 2º de ingeniería informática en la universidad de Zaragoza.
             </p>

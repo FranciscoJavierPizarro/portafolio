@@ -23,10 +23,10 @@ export default function Proy() {
          <div className="">
             <motion.div
             initial="initial"
-            whileInView="animate"
+            animate="animate"
             variants={Stagger}
             viewport={{ once: true, amount: 0.4 }}
-            className="flex flex-col h-full w-1/2 mx-auto justify-center content-center gap-y-8 text-justify"
+            className="flex flex-col h-full w-3/4 md:w-1/2 mx-8 md:mx-auto justify-center content-center gap-y-8 text-justify"
             >
             {list}
             </motion.div>
