@@ -20,35 +20,35 @@ export default function Contactar() {
                     Para contactar conmigo o ver mi curriculum vitae:
                 </p>
                 <div className="mx-auto w-full pt-4 gap-x-4 place-items-center grid grid-cols-5 content-center">
-                    <div className="h-16 p-2 items-center justify-center rounded-xl">
+                    <div className="h-16 p-2 items-center justify-center rounded-xl cursor-pointer">
                         <Link href="https://es.linkedin.com/in/franciscopizarrojavier">
                             <div className="shadow-md h-8 w-8">
                                 <FiLinkedin className="w-full h-full hover:text-azul"/>
                             </div>
                         </Link>
                     </div>
-                    <div className="h-16 p-2 items-center justify-center rounded-xl">
+                    <div className="h-16 p-2 items-center justify-center rounded-xl cursor-pointer">
                         <Link href="https://t.me/pizarrojavier">
                             <div className="shadow-md h-8 w-8">
                                 <FiSend className="w-full h-full hover:text-azul"/>
                             </div>
                         </Link>
                     </div>
-                    <div className="h-16 p-2 items-center justify-center rounded-xl">
+                    <div className="h-16 p-2 items-center justify-center rounded-xl cursor-pointer">
                         <button onClick={copiar} alt="Copiar dirección de correo electrónico">
                             <div className="shadow-md h-8 w-8">
                                 <FiMail className="w-full h-full hover:text-azul"/>
                             </div>
                         </button>
                     </div>
-                    <div className="h-16 p-2 items-center justify-center rounded-xl">
+                    <div className="h-16 p-2 items-center justify-center rounded-xl cursor-pointer">
                         <Link href="https://github.com/FranciscoJavierPizarro">
                             <div className="shadow-md h-8 w-8">
                                 <FiGithub className="w-full h-full hover:text-azul"/>
                             </div>
                         </Link>
                     </div>
-                    <div className="h-16 p-2 items-center justify-center rounded-xl">
+                    <div className="h-16 p-2 items-center justify-center rounded-xl cursor-pointer">
                     <a href="cv.pdf" alt="curriculum vitae">
                         <div className="shadow-md h-8 w-8">
                             <FiFile className="w-full h-full hover:text-azul"/>
