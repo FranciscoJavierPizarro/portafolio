@@ -1,7 +1,11 @@
+import Image from "next/image"
+import jav from "/public/javier.jpg";
 export default function Imagen() {
     return (
         <>
-         <img className="w-24 h-24 relative object-contain" src="./javier.jpg"></img>
+        <div className="w-16 h-16 relative mb-8 mr-4">
+         <Image src={jav} layout="responsive" className="object-contain" alt="Javier Pizarro"/>
+        </div> 
         </>
     )
 }
