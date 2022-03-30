@@ -5,7 +5,7 @@ import Contactar from "../components/Contactar"
 import WaterMarkdown from "../components/WaterMarkdown"
 export default function Home() {
   return (
-    <div className="mt:8">
+    <div className="mt-4 sm:mt:8">
       <Cabecera/>
       <AboutMe/>
       <Contactar/>

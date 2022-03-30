@@ -4,7 +4,7 @@ import Tecnologias from "../components/Tecnologias"
 import WaterMarkdown from "../components/WaterMarkdown"
 export default function Conocimientos() {
   return (
-    <div className="mt:8">
+    <div className="mt-4 sm:mt:8">
       <Cabecera/>
       <Tecnologias/>
       <WaterMarkdown/>

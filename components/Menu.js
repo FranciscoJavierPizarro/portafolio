@@ -4,12 +4,11 @@ export default function Menu() {
     const router = useRouter()
     return (
         <>
-        <div className="w-auto gap-y-8 uppercase font-sans-sheriff">
+        <div className="w-1/2 sm:w-auto gap-y-2 sm:gap-y-8 uppercase font-sans-sheriff ml-6 sm:ml-0">
             <div className="text-lg font-bold">       
             Javier Pizarro    
             </div> 
-            <div className="flex gap-x-8 text-gray-700 font-semibold">
-            
+            <div className="flex flex-col sm:flex-row gap-x-8 text-gray-700 font-semibold">
             <p className={router.pathname === "/proyectos" ? "text-azul" : "hover:text-azul"}>
                 <Link href="proyectos">
                     Proyectos y eventos

@@ -4,8 +4,8 @@ import Proy from "../components/Proy"
 import WaterMarkdown from "../components/WaterMarkdown"
 export default function Proyectos() {
   return (
-    <div className="mt:8">
-      <Cabecera className="pl-3.5"/>
+    <div className="mt-4 sm:mt:8">
+      <Cabecera className=""/>
       <Proy/>
       <WaterMarkdown/>
     </div>

@@ -38,14 +38,14 @@ export default function Tecnologias() {
     return (
         <>
         <div className="mx-auto w-1/2">
-            <div className="mt-4">
-                <p className="text-justify ml-10">
+            <div className="sm:mt-4">
+                <p className="text-center">
                     Tecnologias que empleo:
                 </p>
             </div>
             <div className="">
             <motion.ul
-                className="mt-8 place-items-center grid grid-cols-4 gap-x-12 gap-y-12 content-center"
+                className="mt-4 sm:mt-8 place-items-center grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-4 md:gap-x-12 gap-y-4 md:gap-y-12 content-center"
                 variants={container}
                 initial="hidden"
                 animate="visible"

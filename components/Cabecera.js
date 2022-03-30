@@ -4,7 +4,7 @@ export default function Cabecera({className}) {
     return (
         <>
          <div className={className}>
-         <div className="h-full w-full flex justify-center items-center gap-x-8 pb-8">
+         <div className="sm:h-full sm:w-full flex justify-center items-start sm:items-center gap-x-2 pb-2 sm:gap-x-8 sm:pb-8">
           <Imagen/>
           <Menu/>
          </div>
