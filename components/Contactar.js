@@ -35,7 +35,7 @@ export default function Contactar() {
                         </Link>
                     </div>
                     <div className="h-16 p-2 items-center justify-center rounded-xl">
-                        <button onClick={copiar}>
+                        <button onClick={copiar} alt="Copiar dirección de correo electrónico">
                             <div className="shadow-md h-8 w-8">
                                 <FiMail className="w-full h-full hover:text-azul"/>
                             </div>
@@ -49,7 +49,7 @@ export default function Contactar() {
                         </Link>
                     </div>
                     <div className="h-16 p-2 items-center justify-center rounded-xl">
-                    <a href="cv.pdf">
+                    <a href="cv.pdf" alt="curriculum vitae">
                         <div className="shadow-md h-8 w-8">
                             <FiFile className="w-full h-full hover:text-azul"/>
                         </div>
