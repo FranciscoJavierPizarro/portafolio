@@ -49,7 +49,7 @@ export default function Contactar() {
                         </Link>
                     </div>
                     <div className="h-16 p-2 items-center justify-center rounded-xl cursor-pointer">
-                    <a href="cv.pdf" alt="curriculum vitae">
+                    <a href="curriculumVitae.pdf" alt="curriculum vitae">
                         <div className="shadow-md h-8 w-8">
                             <FiFile className="w-full h-full hover:text-azul"/>
                         </div>
