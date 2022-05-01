@@ -5,8 +5,8 @@ function MyApp({ Component, pageProps }) {
   const getLayout = Component.getLayout || ((page) => page)
   return <>
   
-  <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_ANALYTICS_KEY}"/>
-  <Script strategy="afterInteractive">
+  <Script id="ga1"strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_ANALYTICS_KEY}"/>
+  <Script id="ga2"strategy="afterInteractive">
     {`
        window.dataLayer = window.dataLayer || [];
        function gtag(){dataLayer.push(arguments);}
