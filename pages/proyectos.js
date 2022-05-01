@@ -13,5 +13,5 @@ export default function Proyectos() {
 }
 
 Proyectos.getLayout = function getLayout(page) {
-  return <html lang="es"><Layout>{page}</Layout></html>
+  return <Layout>{page}</Layout>
 }

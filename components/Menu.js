@@ -10,12 +10,12 @@ export default function Menu() {
             </div> 
             <div className="flex flex-col sm:flex-row gap-x-8 text-gray-700 font-semibold">
             <p className={router.pathname === "/proyectos" ? "text-azul" : "hover:text-azul"}>
-                <Link href="proyectos">
+                <Link href="/proyectos">
                     Proyectos y eventos
                 </Link>
             </p>
             <p className={router.pathname === "/conocimientos" ? "text-azul" : "hover:text-azul"}>
-                <Link href="conocimientos">
+                <Link href="/conocimientos">
                     Conocimientos
                 </Link>
             </p>
